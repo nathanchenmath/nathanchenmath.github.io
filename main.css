@@ -587,7 +587,7 @@ main {
 
 header.home {
     position: relative;
-    margin-bottom: 8rem;
+    margin-bottom: 0;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -633,8 +633,8 @@ header.home h1 abbr {
 /* Media queries for header */
 @media screen and (min-width: 768px) {
     header.home h1 {
-        padding-top: 8rem;
-        padding-bottom: 8rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
         font-size: 2.5rem;
         line-height: 1;
         letter-spacing: -.0275em;
@@ -843,4 +843,33 @@ header+.section {
   .site-footer {
     margin-top: 6rem;
   }
+}
+
+/* Contact info styling in header */
+header.home .contact-info {
+    margin-top: 2rem;
+}
+
+header.home .contact-info .subsection {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+header.home .contact-info .subsection h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+header.home .contact-info .subsection .subsection-content {
+    padding-left: 0;
+}
+
+header.home .contact-info .subsection .subsection-content p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    line-height: 1.4;
 }
