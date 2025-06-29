@@ -634,7 +634,7 @@ header.home h1 abbr {
 @media screen and (min-width: 768px) {
     header.home h1 {
         padding-top: 4rem;
-        padding-bottom: 2rem;
+        padding-bottom: 0rem;
         font-size: 2.5rem;
         line-height: 1;
         letter-spacing: -.0275em;
@@ -691,7 +691,7 @@ header.home h1 abbr {
 
 /* Margin adjustments */
 header+.section {
-    margin-top: 8rem
+    margin-top: 4rem
 }
 
 .card {
@@ -721,7 +721,7 @@ header+.section {
     }
 
     header+.section {
-        margin-top: 4rem
+        margin-top: 2rem
     }
 }
 
@@ -847,29 +847,40 @@ header+.section {
 
 /* Contact info styling in header */
 header.home .contact-info {
-    margin-top: 2rem;
+    margin-top: 1rem;
+    border: none;
+    padding: 0;
 }
 
 header.home .contact-info .subsection {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-top: none;
+    border-bottom: none;
+    padding: 0;
 }
 
 header.home .contact-info .subsection h3 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0.25rem;
+    padding: 0;
     text-transform: capitalize;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
 header.home .contact-info .subsection .subsection-content {
-    padding-left: 0;
+    padding: 0;
+    border: none;
+    margin: 0;
 }
 
 header.home .contact-info .subsection .subsection-content p {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 1rem;
+    padding: 0;
+    font-size: 1.2rem;
     line-height: 1.4;
+    border: none;
 }
