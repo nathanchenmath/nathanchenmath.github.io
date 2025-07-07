@@ -199,7 +199,7 @@ main {
     padding-top: .5rem;
     padding-bottom: 2rem;
     margin-top: 4rem;
-    margin-bottom: 4rem
+    margin-bottom: 2rem
 }
 
 .section h2 {
@@ -706,7 +706,7 @@ header+.section {
 
 .section {
     margin-top: 4rem;
-    margin-bottom: 4rem
+    margin-bottom: 2rem
 }
 
 /* Media query adjustments */
@@ -774,6 +774,7 @@ header+.section {
 .item-info {
   margin-bottom: 0.6rem;
   line-height: 1.5;
+  font-size: 1.3rem;
 }
 
 .item-info i {
@@ -781,7 +782,7 @@ header+.section {
 }
 
 .item-links {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
 }
 
