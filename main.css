@@ -621,14 +621,12 @@ header.home h1 span.name {
     position: absolute;
     top: 0;
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     letter-spacing: -.01em;
     color: #000;
 }
 
-header.home h1 abbr {
-    font-feature-settings: "c2sc";
-}
+
 
 /* Media queries for header */
 @media screen and (min-width: 768px) {
@@ -792,6 +790,13 @@ header+.section {
 
 .item-links a:last-child {
   margin-right: 0;
+}
+
+/* CV list item spacing */
+.lists ul li {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.25rem;
+  max-width: none;
 }
 
 /* Mobile responsiveness for list items */
