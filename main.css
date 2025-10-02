@@ -555,15 +555,7 @@ a:focus {
     width: 75%
   }
 
-  .bullet-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-  }
-
-  .bullet-list > * {
-    flex-basis: calc(50% - .5rem);
-  }
+  /* Removed two-column layout for bullet lists - keep single column on all pages */
 }
 
 /* High DPI Screens */
