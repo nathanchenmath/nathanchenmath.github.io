@@ -197,9 +197,9 @@ main {
     border-top-style: solid;
     border-top-width: 1px;
     padding-top: .5rem;
-    padding-bottom: 2rem;
-    margin-top: 4rem;
-    margin-bottom: 2rem
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem
 }
 
 .section h2 {
@@ -573,7 +573,7 @@ main {
 }
 
 .section {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-top: .5rem
 }
 
@@ -695,8 +695,8 @@ header+.section {
 }
 
 .section {
-    margin-top: 4rem;
-    margin-bottom: 2rem
+    margin-top: 1rem;
+    margin-bottom: 1rem
 }
 
 /* Media query adjustments */
@@ -751,8 +751,8 @@ header+.section {
 
 /* List items with links */
 .list-item {
-  margin-bottom: 2.25rem;
-  padding-bottom: 1.25rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
   border-bottom: 1px solid #eee;
 }
 
@@ -762,8 +762,8 @@ header+.section {
 }
 
 .item-info {
-  margin-bottom: 0.6rem;
-  line-height: 1.5;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
   font-size: 1.3rem;
 }
 
@@ -794,12 +794,12 @@ header+.section {
 /* Mobile responsiveness for list items */
 @media screen and (max-width: 600px) {
   .list-item {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
   }
   
   .item-info {
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
   }
   
   .item-links {
