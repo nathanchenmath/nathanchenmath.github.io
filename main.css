@@ -756,6 +756,11 @@ header+.section {
   border-bottom: 1px solid #eee;
 }
 
+/* Extra spacing around dots */
+.dot-separator {
+  margin: 0 0.4rem;
+}
+
 .list-item:last-child {
   border-bottom: none;
   margin-bottom: 0;
