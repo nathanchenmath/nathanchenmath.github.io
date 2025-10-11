@@ -681,7 +681,7 @@ header.home h1 span.name {
 
 /* Margin adjustments */
 header+.section {
-    margin-top: 2rem
+    margin-top: 1rem
 }
 
 .card {
@@ -711,7 +711,7 @@ header+.section {
     }
 
     header+.section {
-        margin-top: 1rem
+        margin-top: 0.5rem
     }
 }
 
@@ -845,14 +845,14 @@ header+.section {
 
 /* Contact info styling in header */
 header.home .contact-info {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     border: none;
     padding: 0;
 }
 
 header.home .contact-info .subsection {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
     border: none;
     border-top: none;
     border-bottom: none;
