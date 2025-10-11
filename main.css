@@ -681,7 +681,7 @@ header.home h1 span.name {
 
 /* Margin adjustments */
 header+.section {
-    margin-top: 4rem
+    margin-top: 2rem
 }
 
 .card {
@@ -711,7 +711,7 @@ header+.section {
     }
 
     header+.section {
-        margin-top: 2rem
+        margin-top: 1rem
     }
 }
 
