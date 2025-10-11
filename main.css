@@ -761,6 +761,12 @@ header+.section {
   margin: 0 0.4rem;
 }
 
+/* Bold and italic text */
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
 .list-item:last-child {
   border-bottom: none;
   margin-bottom: 0;
