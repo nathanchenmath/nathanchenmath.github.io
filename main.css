@@ -613,7 +613,7 @@ header.home h1 span.name {
     position: absolute;
     top: 0;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: -.01em;
     color: #000;
 }
@@ -669,6 +669,7 @@ header.home h1 span.name {
         position: static;
         display: block;
         margin-bottom: 0.5rem;
+        font-size: 2rem;
     }
     
     header.home .profile-image {
@@ -677,6 +678,53 @@ header.home h1 span.name {
         margin: 0 auto;
         order: -1; /* Move image to top on mobile */
     }
+}
+
+/* ROB-AG conference page specific styles */
+.rob-ag-page header.home {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.rob-ag-page header.home h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .rob-ag-page header.home h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rob-ag-page header.home h1 {
+    font-size: 4rem;
+  }
+}
+
+.rob-ag-page header.home h1 span.name {
+  position: static;
+  display: block;
+  font-size: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+.rob-ag-page header.home .subsection {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.rob-ag-page header.home .subsection h3 {
+  font-size: 1.4rem;
+}
+
+.rob-ag-page header.home .subsection .subsection-content p {
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
 }
 
 /* Margin adjustments */
