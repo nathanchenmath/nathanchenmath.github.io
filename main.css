@@ -727,6 +727,11 @@ header.home h1 span.name {
   margin-top: 0.2rem;
 }
 
+/* Allow wider paragraphs in section-content on ROB-AG page */
+.rob-ag-page .section-content p {
+  max-width: 100%;
+}
+
 /* Margin adjustments */
 header+.section {
     margin-top: 1rem
