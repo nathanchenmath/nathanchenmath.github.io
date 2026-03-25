@@ -714,8 +714,8 @@ header.home h1 span.name {
 }
 
 .rob-ag-page header.home .subsection {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
 }
 
 .rob-ag-page header.home .subsection h3 {
@@ -725,6 +725,23 @@ header.home h1 span.name {
 .rob-ag-page header.home .subsection .subsection-content p {
   font-size: 1.5rem;
   margin-top: 0.2rem;
+}
+
+/* ROB-AG image: centered, larger, and less rounded */
+.rob-ag-page header.home .profile-image {
+  align-self: center;
+  margin: 0.25rem auto 1rem;
+  width: 220px;
+  height: 220px;
+  border-radius: 14px;
+}
+
+@media screen and (max-width: 600px) {
+  .rob-ag-page header.home .profile-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 12px;
+  }
 }
 
 /* Allow wider paragraphs in section-content on ROB-AG page */
