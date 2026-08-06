@@ -680,6 +680,16 @@ header.home h1 span.name {
     }
 }
 
+/* Site banner (e.g. ROB-AG notices) */
+.site-banner {
+  padding: 0.85rem 2rem;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  background: #fff3cd;
+  border-bottom: 1px solid #e6d48a;
+}
+
 /* ROB-AG conference page specific styles */
 .rob-ag-page header.home {
   flex-direction: column;
