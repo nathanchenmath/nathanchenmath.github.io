@@ -680,6 +680,21 @@ header.home h1 span.name {
     }
 }
 
+/* Research page: stack subsection headings above content (no middle column) */
+.research-page .subsection {
+  display: block;
+}
+
+.research-page .subsection h3 {
+  width: auto;
+  margin-bottom: 0.75rem;
+}
+
+.research-page .subsection .subsection-content {
+  width: 100%;
+  padding-left: 0;
+}
+
 /* Site banner (e.g. ROB-AG notices) */
 .site-banner {
   padding: 0.85rem 2rem;
