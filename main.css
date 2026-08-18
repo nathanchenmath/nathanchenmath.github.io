@@ -871,6 +871,7 @@ header+.section {
 .item-info {
   margin-bottom: 0.3rem;
   line-height: 1.4;
+  font-size: 1.25rem;
 }
 
 .item-info i {
