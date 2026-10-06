@@ -754,6 +754,10 @@ header.home h1 span.name {
 }
 
 /* ROB-AG image: centered, larger, and less rounded */
+.rob-ag-page .schedule-half-break {
+  margin-bottom: 0.75em;
+}
+
 .rob-ag-page header.home .profile-image {
   align-self: center;
   margin: 0 auto 1rem;
