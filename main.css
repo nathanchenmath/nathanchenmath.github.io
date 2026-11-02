@@ -758,19 +758,53 @@ header.home h1 span.name {
   margin-bottom: 0.75em;
 }
 
-.rob-ag-page header.home .profile-image {
-  align-self: center;
+.rob-ag-page .rob-ag-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  width: 100%;
   margin: 0 auto 1rem;
-  width: 400px;
-  height: 400px;
+}
+
+.rob-ag-page header.home .profile-image {
+  align-self: flex-start;
+  margin: 0;
+  width: 320px;
+  height: 320px;
   border-radius: 14px;
 }
 
+.rob-ag-page .rob-ag-photos img:last-child {
+  margin-top: 160px;
+}
+
+@media screen and (min-width: 1024px) {
+  .rob-ag-page header.home .profile-image {
+    width: 360px;
+    height: 360px;
+  }
+
+  .rob-ag-page .rob-ag-photos img:last-child {
+    margin-top: 180px;
+  }
+}
+
 @media screen and (max-width: 600px) {
+  .rob-ag-page .rob-ag-photos {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .rob-ag-page header.home .profile-image {
     width: 180px;
     height: 180px;
     border-radius: 12px;
+  }
+
+  .rob-ag-page .rob-ag-photos img:last-child {
+    margin-top: 0;
   }
 }
 
