@@ -695,6 +695,21 @@ header.home h1 span.name {
   padding-left: 0;
 }
 
+/* Teaching page: no middle heading column, so content uses the full section */
+.teaching-page .subsection {
+  display: block;
+}
+
+.teaching-page .subsection .subsection-content {
+  width: 100%;
+  padding-left: 0;
+}
+
+.teaching-page .subsection .subsection-content p,
+.teaching-page .subsection .subsection-content li {
+  max-width: none;
+}
+
 /* Site banner (e.g. ROB-AG notices) */
 .site-banner {
   padding: 0.85rem 2rem;
